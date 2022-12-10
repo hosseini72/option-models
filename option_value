@@ -255,16 +255,7 @@ def run_bs_sigma(data):
         plt.ylabel(' Value')
         plt.legend()
         plt.show()
-        print('''As we would expect, when we hold the other variables constant, and increase
-                the volatility parameter both calls and puts increase in value,in what appears
-                to be a linear fashion as shown below.To understand why the calls value seems 
-                to be strictly greater than the put with respect to volatility, change the 
-                interest rate r to 0 and notice that the curve coincide exactly. Rather than
-                making plots for the effect on interest rates, we can deduce from this that 
-                an increase in interest rates increases the value of calls and decreases the
-                value of puts. 
-
-            ''')
+ 
 
 def run_bs_time(data):
         time = np.linspace(0.01,1,20)
@@ -278,11 +269,7 @@ def run_bs_time(data):
         plt.ylabel(' Value')
         plt.legend()
         plt.show()
-        print('''As we increase time we increase the uncertainty regarding the future price.
-        Since uncertainty is to the options holder benefit, the price of the option increases
-        with time. Again try setting the interest rate to zero to observe that the difference
-        between puts and calls is eliminated. 
-            ''')
+    
 
 ################################################################
 # The First Greek
