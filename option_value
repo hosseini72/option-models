@@ -21,7 +21,7 @@ def iso_enquiry():
     iso='ETH-USD'
     try:
         print('Please pay attention, default crypto is "ETH-USD"')
-#         iso = input('Please either inter the iso of your desired crypto to analyse or "exit" to terminate. otherwise "BTC-USD" as default crypto will be assessed.:')
+#         iso = input('Please either enter the iso of your desired crypto to analyse or "exit" to terminate. otherwise "ETH-USD" as default crypto will be assessed.:')
         print(iso == '')
     except:
         iso='ETH-USD'
