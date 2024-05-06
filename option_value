@@ -69,8 +69,6 @@ def ingest(iso, duration = 2):
         fig.show()
     except:
         print('To see the candlestick chart of price please install potly using command: " pip install plotly"')
-
-
     
     return initial_data
 
